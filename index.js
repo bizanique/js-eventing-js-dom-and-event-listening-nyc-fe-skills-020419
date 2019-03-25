@@ -54,3 +54,12 @@ button.addEventListener('click', () => {
   newP.innerHTML = "Congratulations! Here's your Birth Chart"
   main.appendChild(newP)
 })
+
+
+const divs = document.querySelectorAll('div')
+
+for (let div of divs) {
+  div.addEventListener("click", (event) => {
+    console.log(event)
+  })
+}
