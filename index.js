@@ -48,3 +48,5 @@ p.addEventListener('click', (event) => {
 
 
 const button = document.getElembentById('plus')
+
+button.addEventListener('click', () => {})
