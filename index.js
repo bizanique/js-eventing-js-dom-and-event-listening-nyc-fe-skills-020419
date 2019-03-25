@@ -52,5 +52,5 @@ const button = document.getElembentById('pink')
 button.addEventListener('click', () => {
   const newP= document.createElement("p")
   newP.innerHTML = "congratulations! Here's your BirthChart"
-  document.body.appendChild(newP)
+  main.body.appendChild(newP)
 })
