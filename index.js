@@ -51,6 +51,6 @@ const button = document.getElementById('pink')
 
 button.addEventListener('click', () => {
   const newP= document.createElement("p")
-  newP.innerHTML = "congratulations! Here's your BirthChart"
+  newP.innerHTML = "Congratulations! Here's your Birth Chart"
   main.appendChild(newP)
 })
