@@ -14,6 +14,7 @@ main.addEventListener('click', onClick)
 
 const inputBox = document.getElementById ('baby')
 function onInputKeyDown(event) {
+  console.log(event)
 }
 
 inputBox.addEventListener('keydown', onInputKeyDown)
