@@ -9,5 +9,7 @@ function onKeyDown(event) {
   console.log(event.keyCode)
 }
 
+function onInputKeyDown(event) {
+
 main.addEventListener('click', onClick)
 document.addEventListener('keydown', onKeyDown)
