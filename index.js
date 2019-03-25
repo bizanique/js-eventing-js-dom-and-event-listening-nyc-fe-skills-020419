@@ -44,3 +44,7 @@ p.addEventListener('click', (event) => {
   console.log(event)
   p.style.backgroundColor ='yellow'
 })
+
+
+
+const button = document.getElembentById('plus')
