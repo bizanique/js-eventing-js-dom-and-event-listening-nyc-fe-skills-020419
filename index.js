@@ -10,9 +10,9 @@ function onKeyDown(event) {
 }
 
 main.addEventListener('click', onClick)
-document.addEventListener('keydown', onKeyDown)
+// document.addEventListener('keydown', onKeyDown)
 
-
+const inputBox = document.getElementById ('baby')
 function onInputKeyDown(event) {
 }
 
