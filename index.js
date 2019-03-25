@@ -47,7 +47,7 @@ p.addEventListener('click', (event) => {
 
 
 
-const button = document.getElembentById('plus')
+const button = document.getElembentById('pink')
 
 button.addEventListener('click', () => {
   const newP= document.createElement("p")
