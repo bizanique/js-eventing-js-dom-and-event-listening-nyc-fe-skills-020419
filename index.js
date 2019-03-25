@@ -41,4 +41,5 @@ function onYellowClick() {
 }
 p.addEventListener('click', () => {
   console.log(event)
+  p.style.
 })
