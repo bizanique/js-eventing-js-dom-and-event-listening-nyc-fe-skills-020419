@@ -16,4 +16,4 @@ document.addEventListener('keydown', onKeyDown)
 function onInputKeyDown(event) {
 }
 
-inputBot.addEventListener('keydown', onInputK)
+inputBox.addEventListener('keydown', onInputKeyDown)
