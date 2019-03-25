@@ -5,3 +5,9 @@ function onClick(event) {
 }
 main.addEventListener('click', onClick)
 
+function onKeyDown(event) {
+  console.log(event)
+}
+
+main.addEventListener('click, onClick')
+document.addEventListener('keydown', onKeyDown)
